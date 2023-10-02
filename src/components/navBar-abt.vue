@@ -2,7 +2,6 @@
     <div class="wrap bg-blue flex column">
         <RouterLink to="/"><font-awesome-icon icon="fa-solid fa-house"/></RouterLink>
         <RouterLink to="/about"><font-awesome-icon icon="fa-solid fa-user" /></RouterLink>
-        <font-awesome-icon icon="fa-solid fa-plus" @click="emitInput()"/>
     </div>
 </template>
 

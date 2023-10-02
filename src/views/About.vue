@@ -4,27 +4,27 @@
       <div class="team-members">
         <div class="team-member">
           <div class="circle-background">
-            <img src="team-member-1.jpg" alt="Team Member 1">
+            <img src="../assets/jidan.jpg" alt="Team Member 1">
           </div>
-          <h3>zidan</h3>
-          <p>50272210</p>
-          <p>job</p>
+          <h3>Zidan</h3>
+          <p>50272252</p>
+          <p>ngoding dikit</p>
         </div>
         <div class="team-member">
           <div class="circle-background">
-            <img src="team-member-2.jpg" alt="Team Member 2">
+            <img src="../assets/monic.jpg" alt="Team Member 2">
           </div>
-          <h3>monic</h3>
+          <h3>Monic</h3>
           <p>5027221011</p>
-          <p>job</p>
+          <p>ngoding dikit</p>
         </div>
         <div class="team-member">
           <div class="circle-background">
-            <img src="team-member-3.jpg" alt="Team Member 3">
+            <img src="../assets/etha.jpg" alt="Team Member 3">
           </div>
-          <h3>etha</h3>
-          <p>50272210</p>
-          <p>job</p>
+          <h3>Etha</h3>
+          <p>5027221017</p>
+          <p>ngoding dikit</p>
         </div>
       </div>
     </div>
@@ -61,7 +61,7 @@
   .circle-background {
     width: 250px;
     height: 250px;
-    background-color: #82868a;
+    background-color: var(--blue);
     border-radius: 50%;
     display: flex;
     justify-content: center;

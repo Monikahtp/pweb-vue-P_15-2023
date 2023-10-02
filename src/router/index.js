@@ -1,37 +1,42 @@
-import Vue from "vue"
-import VueRouter from "vue-router"
-
-import Home from '@/views/Home.vue'
-import About from '@/views/About.vue'
-
-Vue.use(VueRouter)
+import { createRouter, createWebHistory } from 'vue-router'
+import HomeView from '../views/HomeView.vue'
+import task from '@/components/taskDetail.vue'
+import Error from '../views/Error.vue';
+import about from '../views/About.vue'
+import taskdy from '../components/taskDetail-dy.vue'
 
 const routes = [
-    {
-        path: '/',
-        name: 'home',
-        component: Home
-    },
-    {
-        path: '/home',
-        name: 'Home',
-        component: Home,
-      },
-    {
-        path: '/about',
-        name: 'about',
-        component: About,        
-    },
-    {
-        path: '*',
-        component: () => import('@/views/Error.vue')
-      }
+  {
+    path: '/',
+    name: 'home',
+    component: HomeView,
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: about
+  },
+  {
+    path: "/:taskId",
+    name: 'dynamic',
+    component: taskdy
+  },
+  {
+    path: '/:catchAll(.*)',
+    name: 'Not Found',
+    component: Error
+  },
+  {
+    path: '/error',
+    name: 'error',
+    component: Error
+  },
+
 ]
 
-const router = new VueRouter({
-        mode: 'history',
-        base: process.env.BASE_URL,
-        routes
+const router = createRouter({
+  history: createWebHistory(),
+  routes
 })
 
 export default router
