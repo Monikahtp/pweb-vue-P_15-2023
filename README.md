@@ -1,16 +1,9 @@
 # Praktikum PemWeb Todolist Dengan Vue.js
 
-Anggota 1
-Nama: Mochamad Zidan Hadipratama
-NRP: 5027221052
-
-Anggota 2
-Nama: Etha Felisyia Br Purba
-NRP: 5027221017
-
-Anggota 3
-Nama: Monika Damelia Hutapea
-NRP: 5027221011
+# Kelompok P15
+1. Monika Damelia Hutapea (5027221011)
+2. Etha Felisya Br Purba (5027221017)
+3. Mochamad Zidan Hadipratama (5027221052)
 
 ## Project setup
 ```
